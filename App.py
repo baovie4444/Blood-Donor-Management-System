@@ -104,9 +104,7 @@ class DonorQueueUI:
     def __init__(self, master):
         self.master = master
         self.donor_queue = DonorDeque()
-        self.setup_ui()
-        
-        master = tk.Tk()  # Define the "master" variable
+
         master.title("Blood Donor Management System")
         style = ttk.Style()
         style.theme_use('clam')  
